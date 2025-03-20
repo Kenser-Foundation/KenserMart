@@ -1,0 +1,29 @@
+{
+  "name": "kensermart",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./App/Server/server.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kenser-Foundation/KenserMart.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kenser-Foundation/KenserMart/issues"
+  },
+  "homepage": "https://github.com/Kenser-Foundation/KenserMart#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  },
+  "dependencies": {
+    "connect-livereload": "^0.6.1",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "livereload": "^0.9.3"
+  }
+}
