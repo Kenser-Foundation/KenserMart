@@ -3,4 +3,4 @@ services:
     container_name: mongodb
     image: mongo:6.0
     ports:
-      - 27017:27017
+      - 27017:270175

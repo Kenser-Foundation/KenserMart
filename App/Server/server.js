@@ -19,6 +19,10 @@ app.get("/", (req, res) => {
     res.sendFile(path.join(__dirname, "..", "Client", "Views", "index.html"));
 });
 
+app.get("/account-settings", (req, res) => {
+    res.sendFile((path.join(__dirname, "..", "Client", "Views", "account-settings.html")))
+})
+
 app.listen(PORT, () => {
     console.log(`Express Server started at http://localhost:${PORT}`);
 });

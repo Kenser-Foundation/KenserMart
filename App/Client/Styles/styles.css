@@ -1,0 +1,37 @@
+:root {
+
+}
+
+body {
+    height: 100vh;
+    margin: 0;
+    width: 100vw;
+}
+header {
+    position: sticky;
+    display: flex;
+    align-items: baseline;
+    width: 100vw;
+    flex-wrap: nowrap;
+    height: 10%;
+}
+
+.NavigationParent {
+    position: absolute;
+    display: flex;
+    align-items: baseline;
+    justify-content: flex-end;
+    width: 20%;
+    min-width: 400px;
+    flex-wrap: nowrap;
+    right: 0;
+    height: 100%;
+}
+
+nav {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
